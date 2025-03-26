@@ -12,8 +12,9 @@ This project explores vulnerabilities in WPA encryption, demonstrating how attac
    ```bash
    sudo apt update && sudo apt install aircrack-ng wireshark python3
 3. Run Airodump-ng to capture network packets:
+   ```bash
      airodump-ng wlan0mon
-4. Use Python scripts in the scripts/ folder to process captured data
+5. Use Python scripts in the scripts/ folder to process captured data
 ## Methodology  
 
 ### 1. Data Collection  
